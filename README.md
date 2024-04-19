@@ -52,27 +52,27 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 - **For Sending Text Prompts**:
   ```python
   interact_with_ollama(
-  prompt='Why is the sky blue?'
+      prompt='Why is the sky blue?'
   )
   ```
 
 - **For a Chat Session**:
   ```python
   interact_with_ollama(
-  messages=messages = [
-    {'role': 'user', 'content': 'What is machine learning?'},
-    {'role': 'assistant', 'content': 'Machine learning is a field of AI that enables systems to learn and improve from experience without being explicitly programmed.'
-    {'role': 'user', 'content': 'interesting! How do these systems learn without explicitly programmed?'},}
-    ]
+      messages=messages = [
+        {'role': 'user', 'content': 'What is machine learning?'},
+        {'role': 'assistant', 'content': 'Machine learning is a field of AI that enables systems to learn and improve from experience without being explicitly programmed.'
+        {'role': 'user', 'content': 'interesting! How do these systems learn without explicitly programmed?'},}
+        ]
 )
   ```
 
 - **For Multimodal Interaction**:
   ```python
   interact_with_ollama(
-  model = 'llava'
-  prompt='What is strange about this image?', 
-  image_path='path/to/image.jpg'
+      model = 'llava'
+      prompt='What is strange about this image?', 
+      image_path='path/to/image.jpg'
   )
   ```
 
