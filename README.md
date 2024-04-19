@@ -1,5 +1,7 @@
 # Ollama API Interaction Script
 
+![alt text](images/llava.gif)
+
 ## Introduction
 
 This script facilitates interaction with the Ollama API, enabling efficient communication with models that support single message responses, chat sessions, and multimodal inputs (including images). It's designed to work with the Ollama API, allowing users to easily integrate Large Language Model (LLM) interactions into their applications.
