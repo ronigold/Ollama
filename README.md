@@ -64,7 +64,7 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
         {'role': 'assistant', 'content': 'Machine learning is a field of AI that enables systems to learn and improve from experience without being explicitly programmed.'
         {'role': 'user', 'content': 'interesting! How do these systems learn without explicitly programmed?'},}
         ]
-)
+    )
   ```
 
 - **For Multimodal Interaction**:
