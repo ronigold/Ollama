@@ -52,6 +52,7 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 - **For Sending Text Prompts**:
   ```python
   interact_with_ollama(
+      model = 'llama3',
       prompt='Why is the sky blue?'
   )
   ```
@@ -59,6 +60,7 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 - **For a Chat Session**:
   ```python
   interact_with_ollama(
+      model = 'openhermes2.5-mistral',
       messages=messages = [
         {'role': 'user', 'content': 'What is machine learning?'},
         {'role': 'assistant', 'content': 'Machine learning is a field of AI that enables systems to learn and improve from experience without being explicitly programmed.'
@@ -70,7 +72,7 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 - **For Multimodal Interaction**:
   ```python
   interact_with_ollama(
-      model = 'llava'
+      model = 'llava',
       prompt='What is strange about this image?', 
       image_path='path/to/image.jpg'
   )
