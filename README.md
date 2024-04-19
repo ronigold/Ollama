@@ -27,11 +27,11 @@ To use this script, you will need:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ronigold/Ollama.git
    ```
 2. Navigate to the cloned directory:
    ```bash
-   cd <repository-name>
+   cd Ollama
    ```
 3. Ensure you have Python and the required packages installed.
 
@@ -51,7 +51,9 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 
 - **For Sending Text Prompts**:
   ```python
-  interact_with_ollama(prompt='Hello, Ollama!')
+  interact_with_ollama(
+  prompt='Why is the sky blue?'
+  )
   ```
 
 - **For a Chat Session**:
@@ -67,7 +69,11 @@ To interact with the API, run the `interact_with_ollama` function from your Pyth
 
 - **For Multimodal Interaction**:
   ```python
-  interact_with_ollama(prompt='What is strange about this image?', image_path='path/to/image.jpg')
+  interact_with_ollama(
+  model = 'llava'
+  prompt='What is strange about this image?', 
+  image_path='path/to/image.jpg'
+  )
   ```
 
 ### Output Handler
