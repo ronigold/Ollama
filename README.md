@@ -90,7 +90,7 @@ Refer to the inline comments in the script for detailed documentation on each fu
 
 ## Blog Reference
 
-For more information on setting up and using the Ollama API, refer to the blog post: [Running Llama 3 on Personal Linux Hardware (GPU/CPU)](https://example.com/running-llama3).
+For more information on setting up and using the Ollama API, refer to the blog post: [Running Llama 3 on Personal Linux Hardware (GPU/CPU)](https://medium.com/@ronigoldsmid/running-llama-3-on-personal-linux-hardware-gpu-cpu-dc7c1e019161).
 
 ## Contribution
 
